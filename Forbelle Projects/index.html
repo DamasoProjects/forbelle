@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css'>
+    <title>FORBELLE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+    
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="Logo" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#recipes">Produtos</a></li>
+                <li><a href="#recipes">-</a></li>
+                <li><a href="#recipes">Liso Por mais Tempo</a></li>
+                <li><a href="#recipes">Cachos dos Sonhos</a></li>
+                <li><a href="#recipes">XÔ Frizz</a></li>
+                <li><a href="#recipes">Loiro Odonto</a></li>
+                <li><a href="#recipes">Salva Cabelo</a></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="slideshow-container">
+                <div class="slide fade">
+                  <img src="1.png" alt="Slide 1">
+                </div>
+                <div class="slide fade">
+                  <img src="2.png" alt="Slide 2">
+                </div>
+                <div class="slide fade">
+                  <img src="3.png" alt="Slide 3">
+              </div>
+              </div>
+              <div class="cta">
+                <a href="#recipes" class="btn">Adquirir Produtos</a>
+              </div>
+            </div>
+     
+            <div class="right">
+              <img src="./img/person.png" alt="Person Image" class="person" />
+            </div>
+          </div>
+        </div>
+
+        <button onclick="scrollToRecipes()" class="rolagem"><i class="ri-arrow-down-fill"></i>Produtos</button>
+
+
+        <!--Sliders-->
+
+
+    
+
+  <section id="recipes">
+    <div class="recipe-container">
+      <h1>PRODUTOS</h1>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide post">
+            <img
+              class="post-img"
+              src="liso-por-mais-tempo.jpg"
+              alt="recipe" />
+
+              <p class="preco">R$ 203,47</p>
+            <div class="post-body">
+              <img
+                class="post-avatar"
+                src="logo_forbelle.jpg"
+                alt="avatar" /> 
+              <div class="post-detail">
+                <h2 class="post-name">Liso por Mais Tempo</h2>
+                <p class="post-author">FORBELLE</p>
+              </div>
+              <div class="post-actions">
+                <a href="https://www.forbellecosmeticos.com.br/liso-por-mais-tempo"><p>Adquirir</p></a>
+                
+                <div
+                
+                  class="post-actions-content"
+                  id="post1"
+                  data-visible="false"
+                  aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-folder-open"></i>
+                       
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-eye"></i>
+                     
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-user-plus"></i>
+                       
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img class="post-img" src="loiro-odonto.png" alt="recipe" />
+            <p class="preco">R$ 198,38</p>
+            <div class="post-body">  
+              <img
+                class="post-avatar"
+                src="logo_forbelle.jpg"
+                alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name" id="loiro">Loiro Odonto</h2>
+                <p class="post-author">FORBELLE</p>
+              </div>
+
+              <div class="post-actions">
+                <a href="https://www.forbellecosmeticos.com.br/loiro-odonto"><p>Adquirir</p></a>
+              <div
+                  class="post-actions-content"
+                  id="post2"
+                  data-visible="false"
+                  aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+               <li>
+             
+                       
+                      </a>
+                    </li>
+                    <li>
+                  
+                  
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        </i>
+                   
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img class="post-img" src="salva-cabelo.png" alt="recipe" />
+            <p class="preco">R$ 198,03</p>
+            <div class="post-body">
+              <img
+              class="post-avatar"
+              src="logo_forbelle.jpg"
+              alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name">Salva Cabelo</h2>
+                <p class="post-author">FORBELLE</p>
+              </div>
+
+              <div class="post-actions">
+                <a href="https://www.forbellecosmeticos.com.br/salva-cabelos"><p>Adquirir</p></a>
+          
+                <div
+                  class="post-actions-content"
+                  id="post3"
+                  data-visible="false"
+                  aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-folder-open"></i>
+                      
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-eye"></i>
+                       
+                      </a>
+                    </li>
+                    <li>
+                      <a class="post-actions-link" href="javascript:void(0)">
+                        <i class="fa-solid fa-user-plus"></i>
+                     
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img
+              class="post-img"
+              src="xo-frizz.png"
+              alt="recipe" />
+              <p class="preco">R$ 204,40</p>
+            <div class="post-body">
+              <img
+              class="post-avatar"
+              src="logo_forbelle.jpg"
+              alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name" id="frizz">Xô Frizz</h2>
+                <p class="post-author">FORBELLE</p>
+              </div>
+
+              <div class="post-actions">
+                <a href="https://www.forbellecosmeticos.com.br/xo-frizz"><p>Adquirir</p></a>
+                
+                
+         
+                <div
+                  class="post-actions-content"
+                  id="post4"
+                  data-visible="false"
+                  aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+              
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide post">
+            <img class="post-img" src="cachos-dos-sonhos.png">
+            <p class="preco">R$ 177,90</p>
+            <div class="post-body">
+              <img
+              class="post-avatar"
+              src="logo_forbelle.jpg"
+              alt="avatar" />
+              <div class="post-detail">
+                <h2 class="post-name">Cachos dos Sonhos</h2>
+                <p class="post-author">FORBELLE</p>
+              </div>
+              <div class="post-actions">
+                <a href="https://www.forbellecosmeticos.com.br/cachos-dos-sonhos"><p>Adquirir</p></a>
+                
+
+                <div
+                  class="post-actions-content"
+                  id="post5"
+                  data-visible="false"
+                  aria-hidden="true">
+                  <ul role="list" class="grid-flow" data-spacing="small">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+  </section>
+
+      
+    </div>
+    <div class="container-cards1"></div>
+
+          <div class="toggle-btn">
+          
+          </div>
+        </div>
+      </div>
+
+
+      
+          
+      
+    </main>
+
+          
+
+  
+  
+                                                      
+ 
+    
+    <!-- JavaScript Files -->
+    <script src='https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js'></script>
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
